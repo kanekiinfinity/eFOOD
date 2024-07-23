@@ -1,0 +1,403 @@
+@import url("../styles/fonts.css");
+@import url("../styles/global.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    padding-top: 54px;
+    max-width: 1230px;
+}
+
+
+.header-services {
+    max-width: 606px;
+}
+
+.header-list {
+    gap: 57px;
+}
+
+.header-button {
+    width: 121px;
+    display: flex;
+    border-radius: 5px;
+    padding: 14px 28px;
+    height: 50.41px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #FF7A50;
+}
+
+.header-button__link {
+    width: 65px;
+    display: flex;
+    /* padding: 10px; */
+
+}
+
+.fast-food {
+    flex: 0 0 160px;
+    padding-top: 104px;
+    max-width: 1230px;
+}
+
+
+.span {
+    color: #FF7A50;
+}
+
+.fast-food__title {
+    width: 530px;
+    margin-bottom: 23px;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+}
+
+.fast-food__text {
+    width: 513px;
+    margin-bottom: 44px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.fast-food__bg-image-img {
+    width: 100%;
+    /* height: 681px; */
+}
+
+.fast-food__link {
+    max-width: 328px;
+}
+
+.fast-food__explore {
+    display: flex;
+    width: 13px;
+    padding-bottom: 21px;
+    padding-top: 21px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: #fff;
+    width: 163px;
+}
+
+.fast-food__download {
+    width: 135px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-decoration: underline;
+}
+
+
+
+.category {
+    max-width: 1230px;
+    padding-top: 100px;
+}
+
+
+
+.category-title {
+    width: 376px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42.66px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.menu {
+    gap: 26px;
+    padding-top: 54px;
+    padding-bottom: 39px;
+}
+
+.menu-meal-2 {
+    width: 210px;
+    gap: 8px;
+    padding: 13px 47px;
+    background-color: #FF7A50;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.menu-meal {
+    width: 210px;
+    gap: 8px;
+    padding: 13px 47px;
+    background-color: #F9FbFD;
+    border-radius: 8px;
+}
+
+
+
+.menu-inf {
+    gap: 29px;
+    padding-bottom: 40px;
+}
+
+
+.menu-inf__box {
+    width: 208px;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FbFD;
+}
+
+
+.menu-inf__images {
+    width: 144px;
+    /* height: 160px; */
+}
+
+
+
+.star-img {
+    margin-left: 13px;
+}
+
+.menu-inf__title {
+    /* width: 175px; */
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.78px;
+}
+
+
+.menu-inf__price {
+    width: 50px;
+    margin-top: 9px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.78px;
+}
+
+
+.menu-inf__link {
+    width: 111px;
+    color: #fff;
+    margin-top: 11px;
+    margin-bottom: 22px;
+    padding: 7px 13px;
+    border-radius: 2px;
+    background-color: #FF7A50;
+}
+
+
+
+.menu-bottom {
+    max-width: 278px;
+    gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.menu-bottom__list {
+    gap: 13px;
+}
+
+
+
+@media screen and (min-width: 319.9px) and (max-width: 630.9px) {
+
+    .header-logo__img {
+        width: 50px;
+    }
+
+    .header-list {
+        gap: 5px;
+    }
+
+    .header-link {
+        font-size: 10px;
+    }
+
+    .header-link__search,
+    .header-link__bin {
+        width: 10px;
+        height: 10px;
+    }
+
+    .header-button {
+        width: 65px;
+        height: 30px;
+        font-size: 10px;
+        padding: 4px 14px;
+    }
+
+
+    .fast-food {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu,
+    .menu-inf,
+    .menu-bottom {
+        justify-content: center;
+    }
+
+    .fast-food__title {
+        width: 200px;
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+
+    .fast-food__text {
+        font-size: 13px;
+        width: 250px;
+    }
+
+    .fast-food__link {
+        max-width: 210px;
+        gap: 20px;
+    }
+
+    .fast-food__explore {
+        width: 163px;
+        display: flex;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #FF7A50;
+        color: #fff;
+    }
+
+    .fast-food__download {
+        font-size: 20px;
+        width: 120px;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        line-height: 15.7px;
+        text-decoration: underline;
+    }
+
+    .category-title {
+        font-size: 30px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (min-width: 631px) and (max-width: 680.9px) {
+    .header-logo__img {
+        width: 60px;
+    }
+
+    .header-list {
+        gap: 15px;
+    }
+
+    .header-link {
+        font-size: 13px;
+    }
+
+    .header-link__search,
+    .header-link__bin {
+        width: 14px;
+        height: 14px;
+    }
+
+    .header-button {
+        width: 80px;
+        /* height: 40px; */
+        font-size: 12px;
+        padding: 14px 18px;
+    }
+
+
+    .fast-food {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu,
+    .menu-inf,
+    .menu-bottom {
+        justify-content: center;
+    }
+
+    .fast-food__title {
+        width: 280px;
+        font-size: 33px;
+        line-height: 55px;
+    }
+
+
+    .fast-food__text {
+        font-size: 15px;
+        width: 330px;
+    }
+}
+
+
+
+@media screen and (min-width: 681px) and (max-width: 970.9px) {
+
+    .header-logo__img {
+        width: 80px;
+    }
+
+
+    .header-link__search,
+    .header-link__bin {
+        width: 18px;
+        height: 18px;
+    }
+
+    .header-list {
+        gap: 25px;
+    }
+
+    .header-link {
+        font-size: 13px;
+    }
+
+    .header-button {
+        width: 100px;
+        height: 45px;
+        font-size: 12px;
+    }
+
+    .header-button__link {
+        font-size: 10;
+    }
+
+    .fast-food {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu,
+    .menu-inf,
+    .menu-bottom {
+        justify-content: center;
+    }
+
+}
